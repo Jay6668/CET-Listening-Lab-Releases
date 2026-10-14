@@ -10,21 +10,20 @@
 
 | 平台／资料 | 下载文件 | 说明 |
 | --- | --- | --- |
-| Windows 64 位 | [Windows 安装包](https://github.com/Jay6668/CET-Listening-Lab-Releases/releases/download/v0.5.2/CET-Listening-Lab-0.5.2-Windows-x64-Setup.exe) | 约 10 MB，四六级合并，首次使用导入下方课程包 |
+| Windows 64 位 | [Windows 安装包](https://github.com/Jay6668/CET-Listening-Lab-Releases/releases/download/v0.5.2/CET-Listening-Lab-0.5.2-Windows-x64-Setup.exe) | 约 517 MB，内置四级 9 套＋六级 9 套及词汇，安装即可离线学习 |
 | 安卓四级 | [四级精听 APK](https://github.com/Jay6668/CET-Listening-Lab-Releases/releases/download/v0.5.2/CET-CET4-0.5.2-Android.apk) | 约 337 MB，内置四级 9 套及词汇 |
 | 安卓六级 | [六级精听 APK](https://github.com/Jay6668/CET-Listening-Lab-Releases/releases/download/v0.5.2/CET-CET6-0.5.2-Android.apk) | 约 386 MB，内置六级 9 套及词汇 |
-| 近三年课程 | [2023–2025 资源包](https://github.com/Jay6668/CET-Listening-Lab-Releases/releases/download/v0.5.2/CET-Recent-2023-2025-Resources-0.5.2.zip) | 约 647 MB，四级 9 套＋六级 9 套，共 18 套，Windows 使用 |
+| 近三年课程 | [2023–2025 资源包](https://github.com/Jay6668/CET-Listening-Lab-Releases/releases/download/v0.5.2/CET-Recent-2023-2025-Resources-0.5.2.zip) | 约 647 MB，四级 9 套＋六级 9 套，共 18 套，可选备份／转移，Windows 无需另行下载 |
 | 文件校验 | [SHA256SUMS.txt](https://github.com/Jay6668/CET-Listening-Lab-Releases/releases/download/v0.5.2/SHA256SUMS.txt) | 安装包与课程包的 SHA256 |
 
 这次公开资料限定为 **2023、2024、2025 年**。每级精选 9 套具有整卷题目、答案及全文逐句时间轴的材料，含 1,500 个词；不代表收齐三个年度所有考试场次。
 
 ## Windows 开始使用
 
-1. 下载并运行 Windows Setup，可选择安装目录。
-2. 下载近三年课程 ZIP，**无需解压**。
-3. 打开软件，建立学习档案；到「资源管理」选择该 ZIP。
-4. 可一次导入，也可按四级／六级、年份、试卷选择。首次导入会校验音频，进度会在页面显示；中断后重新选择原 ZIP 可继续。
-5. 导入完成后，到「今天」学习，或从「真题库」自由选择。课程导入后可离线学习。
+1. 只下载并运行 Windows Setup，可选择安装目录。
+2. 打开软件，建立学习档案；无需下载或导入课程 ZIP。
+3. 到「今天」开始每日学习，或从「真题库」选择四级／六级课程。内置资料可完全离线使用。
+4. 如有其他资料，再使用「资源管理」导入；可选 ZIP 用于另存备份和设备转移。
 
 Windows 使用包含 Python 运行时的本机服务与浏览器应用窗口；无需自行安装 Python、Node.js 或克隆源码。学习数据在本机保存；升级时请覆盖安装，备份和恢复入口在软件内「设置与数据」。
 
@@ -42,7 +41,7 @@ Windows 使用包含 Python 运行时的本机服务与浏览器应用窗口；�
 
 ## 当前验证范围
 
-这是 **0.5.2 预发布版**。Windows 已做隔离安装与本机运行、资料导入和播放检查；安卓安装包已构建并核对课程范围、文件哈希与原签名，**本轮公开候选尚未做手机真机验收**。
+这是 **0.5.2 预发布版**。Windows 内置版已做全新隔离安装、未导入资料的离线播放和进度保存检查；安卓安装包已构建并核对课程范围、文件哈希与原签名，**本轮公开候选尚未做手机真机验收**。
 
 部分句界和中文辅助释义仍为机器候选，需继续校对；系统单词发音没有逐词真人听审。iPhone 本轮没有安装包。
 
